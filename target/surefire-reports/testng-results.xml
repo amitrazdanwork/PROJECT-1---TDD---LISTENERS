@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="18" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-05T19:18:44 IST" name="Suite" finished-at="2025-04-05T19:19:26 IST" duration-ms="41535">
+    <groups>
+      <group name="functional">
+        <method signature="TS001.TS001_TC003()[pri:2, instance:com.qa.testcases.TS001@353d0772]" name="TS001_TC003" class="com.qa.testcases.TS001"/>
+        <method signature="TS001.TS001_TC003()[pri:2, instance:com.qa.testcases.TS001@7c729a55]" name="TS001_TC003" class="com.qa.testcases.TS001"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="TS001.TS001_TC002(java.lang.String)[pri:1, instance:com.qa.testcases.TS001@353d0772]" name="TS001_TC002" class="com.qa.testcases.TS001"/>
+        <method signature="TS001.TS001_TC004()[pri:5, instance:com.qa.testcases.TS001@353d0772]" name="TS001_TC004" class="com.qa.testcases.TS001"/>
+        <method signature="TS001.TS001_TC002(java.lang.String)[pri:1, instance:com.qa.testcases.TS001@7c729a55]" name="TS001_TC002" class="com.qa.testcases.TS001"/>
+        <method signature="TS001.TS001_TC004()[pri:5, instance:com.qa.testcases.TS001@7c729a55]" name="TS001_TC004" class="com.qa.testcases.TS001"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TS001.TS001_TC001()[pri:0, instance:com.qa.testcases.TS001@353d0772]" name="TS001_TC001" class="com.qa.testcases.TS001"/>
+        <method signature="TS001.TS001_TC005(java.lang.String)[pri:6, instance:com.qa.testcases.TS001@353d0772]" name="TS001_TC005" class="com.qa.testcases.TS001"/>
+        <method signature="TS001.TS001_TC001()[pri:0, instance:com.qa.testcases.TS001@7c729a55]" name="TS001_TC001" class="com.qa.testcases.TS001"/>
+        <method signature="TS001.TS001_TC005(java.lang.String)[pri:6, instance:com.qa.testcases.TS001@7c729a55]" name="TS001_TC005" class="com.qa.testcases.TS001"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-04-05T19:18:44 IST" name="Test1" finished-at="2025-04-05T19:19:23 IST" duration-ms="38142">
+      <class name="com.qa.testcases.TS001">
+        <test-method signature="TS001_TC001()[pri:0, instance:com.qa.testcases.TS001@353d0772]" started-at="2025-04-05T19:18:54 IST" name="TS001_TC001" description="Verify that the Create an Account form contains below mentioned fields : -
+
+Labels: -
+&quot;First Name&quot;
+&quot;Last Name&quot;
+&quot;Email&quot;
+&quot;Password&quot;
+&quot;Confirm Password&quot;
+
+Textboxes:-
+&quot;First Name&quot; textbox
+&quot;Last Name&quot; textbox
+&quot;Email&quot; textbox
+&quot;Password&quot; textbox
+&quot;Confirm Password&quot; textbox
+
+Buttons:-
+&quot;Create an account&quot; button" finished-at="2025-04-05T19:18:58 IST" duration-ms="3935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC001 -->
+        <test-method signature="TS001_TC002(java.lang.String)[pri:1, instance:com.qa.testcases.TS001@353d0772]" started-at="2025-04-05T19:19:01 IST" name="TS001_TC002" description="Verify presence of valid placeholder under Password label Textbox. Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored." data-provider="TestData" finished-at="2025-04-05T19:19:03 IST" duration-ms="2036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC002 -->
+        <test-method signature="TS001_TC002(java.lang.String)[pri:1, instance:com.qa.testcases.TS001@353d0772]" started-at="2025-04-05T19:19:03 IST" name="TS001_TC002" description="Verify presence of valid placeholder under Password label Textbox. Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored." data-provider="TestData" finished-at="2025-04-05T19:19:05 IST" duration-ms="2021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lemo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC002 -->
+        <test-method signature="TS001_TC002(java.lang.String)[pri:1, instance:com.qa.testcases.TS001@353d0772]" started-at="2025-04-05T19:19:05 IST" name="TS001_TC002" description="Verify presence of valid placeholder under Password label Textbox. Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored." data-provider="TestData" finished-at="2025-04-05T19:19:07 IST" duration-ms="2032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC002 -->
+        <test-method signature="TS001_TC002(java.lang.String)[pri:1, instance:com.qa.testcases.TS001@353d0772]" started-at="2025-04-05T19:19:07 IST" name="TS001_TC002" description="Verify presence of valid placeholder under Password label Textbox. Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored." data-provider="TestData" finished-at="2025-04-05T19:19:09 IST" duration-ms="1954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lemo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC002 -->
+        <test-method signature="TS001_TC003()[pri:2, instance:com.qa.testcases.TS001@353d0772]" started-at="2025-04-05T19:19:09 IST" name="TS001_TC003" description="Verify that system generates a validation message when clicking on submit button without filling all the mandatory fields." finished-at="2025-04-05T19:19:12 IST" duration-ms="2748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC003 -->
+        <test-method signature="TS001_TC004()[pri:5, instance:com.qa.testcases.TS001@353d0772]" started-at="2025-04-05T19:19:12 IST" name="TS001_TC004" description="Verify that entering blank spaces on mandatory fields lead to validation error" finished-at="2025-04-05T19:19:15 IST" duration-ms="3902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC004 -->
+        <test-method signature="TS001_TC005(java.lang.String)[pri:6, instance:com.qa.testcases.TS001@353d0772]" started-at="2025-04-05T19:19:16 IST" name="TS001_TC005" description="Verify that the password is in encrypted form when entered" data-provider="TestData" finished-at="2025-04-05T19:19:17 IST" duration-ms="1613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC005 -->
+        <test-method signature="TS001_TC005(java.lang.String)[pri:6, instance:com.qa.testcases.TS001@353d0772]" started-at="2025-04-05T19:19:17 IST" name="TS001_TC005" description="Verify that the password is in encrypted form when entered" data-provider="TestData" finished-at="2025-04-05T19:19:20 IST" duration-ms="2368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lemo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC005 -->
+        <test-method signature="TS001_TC005(java.lang.String)[pri:6, instance:com.qa.testcases.TS001@353d0772]" started-at="2025-04-05T19:19:20 IST" name="TS001_TC005" description="Verify that the password is in encrypted form when entered" data-provider="TestData" finished-at="2025-04-05T19:19:21 IST" duration-ms="1565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC005 -->
+        <test-method signature="TS001_TC005(java.lang.String)[pri:6, instance:com.qa.testcases.TS001@353d0772]" started-at="2025-04-05T19:19:21 IST" name="TS001_TC005" description="Verify that the password is in encrypted form when entered" data-provider="TestData" finished-at="2025-04-05T19:19:23 IST" duration-ms="1490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lemo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC005 -->
+      </class> <!-- com.qa.testcases.TS001 -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-04-05T19:18:44 IST" name="Test2" finished-at="2025-04-05T19:19:26 IST" duration-ms="41534">
+      <class name="com.qa.testcases.TS001">
+        <test-method signature="TS001_TC001()[pri:0, instance:com.qa.testcases.TS001@7c729a55]" started-at="2025-04-05T19:19:02 IST" name="TS001_TC001" description="Verify that the Create an Account form contains below mentioned fields : -
+
+Labels: -
+&quot;First Name&quot;
+&quot;Last Name&quot;
+&quot;Email&quot;
+&quot;Password&quot;
+&quot;Confirm Password&quot;
+
+Textboxes:-
+&quot;First Name&quot; textbox
+&quot;Last Name&quot; textbox
+&quot;Email&quot; textbox
+&quot;Password&quot; textbox
+&quot;Confirm Password&quot; textbox
+
+Buttons:-
+&quot;Create an account&quot; button" finished-at="2025-04-05T19:19:05 IST" duration-ms="3229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC001 -->
+        <test-method signature="TS001_TC002(java.lang.String)[pri:1, instance:com.qa.testcases.TS001@7c729a55]" started-at="2025-04-05T19:19:05 IST" name="TS001_TC002" description="Verify presence of valid placeholder under Password label Textbox. Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored." data-provider="TestData" finished-at="2025-04-05T19:19:07 IST" duration-ms="1708" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demop]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5cad8739-3795-42fb-bb43-e6a7ee877c49, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:debuggerAddress: 127.0.0.1:35741, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9688, moz:profile: C:\Users\razda\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35741/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5cad8739-3795-42fb-bb43-e6a7ee877c49]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5cad8739-3795-42fb-bb43-e6a7ee877c49, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:debuggerAddress: 127.0.0.1:35741, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9688, moz:profile: C:\Users\razda\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35741/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5cad8739-3795-42fb-bb43-e6a7ee877c49
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy11.getText(Unknown Source)
+at com.qa.pages.CreateAccountPage.GetPasswordTextboxErrorMessage(CreateAccountPage.java:189)
+at com.qa.testcases.TS001.TS001_TC002(TS001.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC002 -->
+        <test-method signature="TS001_TC002(java.lang.String)[pri:1, instance:com.qa.testcases.TS001@7c729a55]" started-at="2025-04-05T19:19:07 IST" name="TS001_TC002" description="Verify presence of valid placeholder under Password label Textbox. Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored." data-provider="TestData" finished-at="2025-04-05T19:19:09 IST" duration-ms="1426" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lemo]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5cad8739-3795-42fb-bb43-e6a7ee877c49, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:debuggerAddress: 127.0.0.1:35741, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9688, moz:profile: C:\Users\razda\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35741/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5cad8739-3795-42fb-bb43-e6a7ee877c49]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5cad8739-3795-42fb-bb43-e6a7ee877c49, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:debuggerAddress: 127.0.0.1:35741, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9688, moz:profile: C:\Users\razda\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35741/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5cad8739-3795-42fb-bb43-e6a7ee877c49
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy11.getText(Unknown Source)
+at com.qa.pages.CreateAccountPage.GetPasswordTextboxErrorMessage(CreateAccountPage.java:189)
+at com.qa.testcases.TS001.TS001_TC002(TS001.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC002 -->
+        <test-method signature="TS001_TC002(java.lang.String)[pri:1, instance:com.qa.testcases.TS001@7c729a55]" started-at="2025-04-05T19:19:09 IST" name="TS001_TC002" description="Verify presence of valid placeholder under Password label Textbox. Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored." data-provider="TestData" finished-at="2025-04-05T19:19:11 IST" duration-ms="2078" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demop]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5cad8739-3795-42fb-bb43-e6a7ee877c49, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:debuggerAddress: 127.0.0.1:35741, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9688, moz:profile: C:\Users\razda\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35741/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5cad8739-3795-42fb-bb43-e6a7ee877c49]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5cad8739-3795-42fb-bb43-e6a7ee877c49, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:debuggerAddress: 127.0.0.1:35741, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9688, moz:profile: C:\Users\razda\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35741/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5cad8739-3795-42fb-bb43-e6a7ee877c49
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy11.getText(Unknown Source)
+at com.qa.pages.CreateAccountPage.GetPasswordTextboxErrorMessage(CreateAccountPage.java:189)
+at com.qa.testcases.TS001.TS001_TC002(TS001.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC002 -->
+        <test-method signature="TS001_TC002(java.lang.String)[pri:1, instance:com.qa.testcases.TS001@7c729a55]" started-at="2025-04-05T19:19:11 IST" name="TS001_TC002" description="Verify presence of valid placeholder under Password label Textbox. Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored." data-provider="TestData" finished-at="2025-04-05T19:19:13 IST" duration-ms="1780" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lemo]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5cad8739-3795-42fb-bb43-e6a7ee877c49, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:debuggerAddress: 127.0.0.1:35741, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9688, moz:profile: C:\Users\razda\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35741/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5cad8739-3795-42fb-bb43-e6a7ee877c49]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5cad8739-3795-42fb-bb43-e6a7ee877c49, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:debuggerAddress: 127.0.0.1:35741, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9688, moz:profile: C:\Users\razda\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35741/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5cad8739-3795-42fb-bb43-e6a7ee877c49
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy11.getText(Unknown Source)
+at com.qa.pages.CreateAccountPage.GetPasswordTextboxErrorMessage(CreateAccountPage.java:189)
+at com.qa.testcases.TS001.TS001_TC002(TS001.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC002 -->
+        <test-method signature="TS001_TC003()[pri:2, instance:com.qa.testcases.TS001@7c729a55]" started-at="2025-04-05T19:19:13 IST" name="TS001_TC003" description="Verify that system generates a validation message when clicking on submit button without filling all the mandatory fields." finished-at="2025-04-05T19:19:15 IST" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC003 -->
+        <test-method signature="TS001_TC004()[pri:5, instance:com.qa.testcases.TS001@7c729a55]" started-at="2025-04-05T19:19:15 IST" name="TS001_TC004" description="Verify that entering blank spaces on mandatory fields lead to validation error" finished-at="2025-04-05T19:19:18 IST" duration-ms="2825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC004 -->
+        <test-method signature="TS001_TC005(java.lang.String)[pri:6, instance:com.qa.testcases.TS001@7c729a55]" started-at="2025-04-05T19:19:18 IST" name="TS001_TC005" description="Verify that the password is in encrypted form when entered" data-provider="TestData" finished-at="2025-04-05T19:19:20 IST" duration-ms="2086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC005 -->
+        <test-method signature="TS001_TC005(java.lang.String)[pri:6, instance:com.qa.testcases.TS001@7c729a55]" started-at="2025-04-05T19:19:20 IST" name="TS001_TC005" description="Verify that the password is in encrypted form when entered" data-provider="TestData" finished-at="2025-04-05T19:19:22 IST" duration-ms="1328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lemo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC005 -->
+        <test-method signature="TS001_TC005(java.lang.String)[pri:6, instance:com.qa.testcases.TS001@7c729a55]" started-at="2025-04-05T19:19:22 IST" name="TS001_TC005" description="Verify that the password is in encrypted form when entered" data-provider="TestData" finished-at="2025-04-05T19:19:24 IST" duration-ms="2071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC005 -->
+        <test-method signature="TS001_TC005(java.lang.String)[pri:6, instance:com.qa.testcases.TS001@7c729a55]" started-at="2025-04-05T19:19:24 IST" name="TS001_TC005" description="Verify that the password is in encrypted form when entered" data-provider="TestData" finished-at="2025-04-05T19:19:26 IST" duration-ms="2251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lemo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC005 -->
+      </class> <!-- com.qa.testcases.TS001 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

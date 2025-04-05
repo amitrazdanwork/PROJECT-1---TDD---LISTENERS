@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 46.653 s <<< FAILURE! - in TestSuite
+TS001_TC002(com.qa.testcases.TS001)  Time elapsed: 0.467 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5cad8739-3795-42fb-bb43-e6a7ee877c49, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:debuggerAddress: 127.0.0.1:35741, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9688, moz:profile: C:\Users\razda\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35741/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5cad8739-3795-42fb-bb43-e6a7ee877c49
+	at com.qa.testcases.TS001.TS001_TC002(TS001.java:72)
+
+TS001_TC002(com.qa.testcases.TS001)  Time elapsed: 0.096 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5cad8739-3795-42fb-bb43-e6a7ee877c49, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:debuggerAddress: 127.0.0.1:35741, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9688, moz:profile: C:\Users\razda\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35741/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5cad8739-3795-42fb-bb43-e6a7ee877c49
+	at com.qa.testcases.TS001.TS001_TC002(TS001.java:72)
+
+TS001_TC002(com.qa.testcases.TS001)  Time elapsed: 2.235 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5cad8739-3795-42fb-bb43-e6a7ee877c49, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:debuggerAddress: 127.0.0.1:35741, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9688, moz:profile: C:\Users\razda\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35741/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5cad8739-3795-42fb-bb43-e6a7ee877c49
+	at com.qa.testcases.TS001.TS001_TC002(TS001.java:72)
+
+TS001_TC002(com.qa.testcases.TS001)  Time elapsed: 1.513 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5cad8739-3795-42fb-bb43-e6a7ee877c49, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:debuggerAddress: 127.0.0.1:35741, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9688, moz:profile: C:\Users\razda\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35741/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5cad8739-3795-42fb-bb43-e6a7ee877c49
+	at com.qa.testcases.TS001.TS001_TC002(TS001.java:72)
+
