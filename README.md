@@ -7,3 +7,4 @@ Testing framework = TestNG
 Design pattern = POM
 UI automation = Selenium Webdriver(Local), Selenium Grid (Remote)
 Test report = Extent Report
+Frameowrk controiling = TestNG Listeners
